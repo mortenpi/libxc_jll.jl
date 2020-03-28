@@ -1,9 +1,18 @@
 [[libxc]]
 arch = "i686"
-git-tree-sha1 = "0b75e3af16322078c6e8645cf56bc3e1bd5c42e6"
+git-tree-sha1 = "2b0606d748fbf1416e3d883abf55e7772de7c2a0"
 libc = "glibc"
 os = "linux"
 
     [[libxc.download]]
-    sha256 = "782ed0cc680a96df33c6abd27ad6f4b336acaa067c3051f6f198cd11dd942c9f"
+    sha256 = "0bd5424bd98801101406f2c8af054d27e667d13446fcd45f0c48202f94483e3a"
     url = "https://github.com/mortenpi/libxc_jll.jl/releases/download/libxc-v4.3.4+0/libxc.v4.3.4.i686-linux-gnu.tar.gz"
+[[libxc]]
+arch = "x86_64"
+git-tree-sha1 = "092fe46c469c4fa9778b3d7555920ed6904281cd"
+libc = "glibc"
+os = "linux"
+
+    [[libxc.download]]
+    sha256 = "588ae3f20c020a132900a19ae9143dac3a3461ec4b0f747484478cec342c8b33"
+    url = "https://github.com/mortenpi/libxc_jll.jl/releases/download/libxc-v4.3.4+0/libxc.v4.3.4.x86_64-linux-gnu.tar.gz"
