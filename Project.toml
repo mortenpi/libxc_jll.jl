@@ -1,0 +1,10 @@
+name = "libxc_jll"
+uuid = "d3eb20e7-1f97-5a64-a585-f8e3fb19ea2c"
+version = "4.3.4+0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
+
+[compat]
+julia = "1.0"
